@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Lab2withoutGit</string>
+    <string name="sum_of_inverse_odd_factorials">Sum of inverse odd factorials</string>
+    <string name="stop_condition">Stop condition</string>
 </resources>
