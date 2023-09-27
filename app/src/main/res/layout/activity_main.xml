@@ -52,4 +52,47 @@
         app:layout_constraintHorizontal_bias="0.823"
         app:layout_constraintStart_toEndOf="@+id/condition"
         app:layout_constraintTop_toBottomOf="@+id/LabelText" />
+
+    <TextView
+        android:id="@+id/resultMessage"
+        android:layout_width="79dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="360dp"
+        android:text="Result ="
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/result"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/condition"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="193dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="151dp"
+        android:ems="10"
+        android:hint='Click on Button "Solution"'
+        android:inputType="text"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/solution"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_text"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/solution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="149dp"
+        android:text="Solution"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
