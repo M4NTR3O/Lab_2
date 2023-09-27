@@ -17,7 +17,9 @@ class MainActivity : ComponentActivity() {
             var n: Int = 1
             var factorial: Int = 1
             do {
-
+                result += 1 / factorial
+                n += 2
+                factorial *= n * (n - 1)
             }while(condition < 1/factorial)
         }
     }
